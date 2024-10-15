@@ -1,0 +1,161 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-weight: 400;
+  src: url('../fonts/play-v19-cyrillic_latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-weight: 700;
+  src: url('../fonts/play-v19-cyrillic_latin-700.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-weight: 400;
+  src: url('../fonts/roboto-v32-cyrillic_latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-weight: 700;
+  src: url('../fonts/roboto-v32-cyrillic_latin-700.woff2') format('woff2');
+}
+
+:root {
+    --color-brand-light: #2B7FFF;
+    --color-brand-dark: #011C44;
+    --color-text-light: #ffffff;
+    --color-text-black: #000000;
+    --color-text-dark: #4A4A4A;
+}
+
+body {
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--color-brand-dark);
+}
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+.logo {
+    font-family: 'play', sans-serif;
+    font-weight: 700;
+    color: var(--color-brand-light);
+}
+.logo-header {
+    font-size: 22px;
+}
+
+.link-header:hover {
+    font-weight: 700;
+    color: var(--color-brand-light)
+}
+
+/* body */
+.hero-title {
+font-family: 'play', sans-serif;
+font-size: 140px;
+font-weight: 700;
+color: var(--color-brand-light);
+}
+
+.section-name {
+font-family: 'play', sans-serif;
+font-size: 64px;
+font-weight: 700;
+}
+
+.button-order-call {
+    text-align: center;
+    width: 219px;
+    height: 53px;
+    border: 2px, solid, var(--color-brand-light);
+    border-radius: 32px;
+    background-color: var(--color-brand-light);
+    color: var(--color-text-light);
+    font-family: 'roboto', sans-serif;
+    font-weight: 600;
+}
+
+.button-order-call:hover {
+background-color: transparent;
+color: var(--color-brand-dark);
+}
+
+.small-text {
+color: var(--color-text-dark);
+font-size: 14px;
+}
+
+.about-us-text {
+    font-size: 22px;
+    line-height: 1.7;
+}
+
+.advantages-text {
+    line-height: 1.5;
+}
+
+.form {
+    background-color: var(--color-brand-dark);
+}
+.form-text-first {
+    color: var(--color-text-light);
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.form-text-accent {
+    color: var(--color-brand-light);
+}
+
+.form-lines {
+    border-radius: 32px;
+    border: 2px, solid, var(--color-text-dark);
+    font-size: 13px;
+    color: var(--color-text-light);
+}
+
+.form-text-second {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+}
+.accent{ 
+    color: var(--color-brand-light);
+}
+
+.small-accent {
+    font-weight: 700;
+}
+
+/* footer */
+.footer {
+    background-color: var(--color-brand-dark);
+}
+.logo-footer {
+    font-size: 24px;
+}
+
+.link-footer {
+    font-size: 16px;
+    color: var(--color-text-light);
+}
+
+.footer-small-text {
+    font-size: 13px;
+    color: var(--color-text-dark);
+}
