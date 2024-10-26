@@ -54,11 +54,11 @@ a {
     font-weight: 700;
     color: var(--color-brand-light);
 }
-.logo-header {
+.header-logo {
     font-size: 22px;
 }
 
-.link-header:hover {
+.header-link:hover {
     font-weight: 700;
     color: var(--color-brand-light)
 }
@@ -146,12 +146,17 @@ font-size: 14px;
 .footer {
     background-color: var(--color-brand-dark);
 }
-.logo-footer {
+.footer-logo {
     font-size: 24px;
 }
 
-.link-footer {
+.footer-link {
     font-size: 16px;
+    color: var(--color-text-light);
+}
+
+.footer-icons {
+    background-color: var(--color-text-light);
     color: var(--color-text-light);
 }
 
